@@ -1,0 +1,495 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+ <title>htmlbook.ru - Теги HTML - Тег EMBED</title>
+ <link rel="shortcut icon" href="http://htmlbook.ru/favicon.ico">
+ <link rel="alternate" type="application/rss+xml" title="Статьи с сайта htmlbook.ru" href="http://htmlbook.ru/rss.xml">
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+ <meta name="description" content="Элемент EMBED используется для загрузки и отображения объектов (например, видеофайлов, флэш-роликов, некоторых звуковых файлов и т.д.), которые исходно браузер не понимает. ">
+ <link rel="stylesheet" href="/style/hb.css" type="text/css">
+ <link rel="stylesheet" href="/style/ref.css" type="text/css">
+</head>
+
+<body>
+
+<div id="title"><a href="/"><img src="/images/title.gif" width="213" height="60" alt="htmlbook.ru - Для тех, кто делает сайты"></a></div>
+
+<div>
+ <span id="m1"><a href="/content/"><img src="/images/article.gif" width="67" height="26" alt="Статьи"></a></span>
+ <span id="m2"><a href="/books/"><img src="/images/books.gif" width="58" height="26" alt="Книги"></a></span>
+ <span id="m3"><a href="http://stepbystep.htmlbook.ru"><img src="/images/sbs.gif" width="111" height="26" alt="Шаг за шагом"></a></span>
+ <span id="m4"><a href="/faq/"><img src="/images/faq.gif" width="78" height="26" alt="Рецепты"></a></span>
+ <span id="m5"><a href="http://forum.htmlbook.ru/"><img src="/images/forum.gif" width="65" height="26" alt="Форум"></a></span>
+</div>
+
+<div id="bread"><img src="/images/line.gif" width="9" height="14" align="left" alt=""> <a href="/">Главная страница</a> &gt; <a href="/html/">Теги HTML</a> &gt; Тег EMBED</div>
+
+<div id="toc2">
+<div class="tagtitle">Теги HTML</div>
+<div class="panel">
+<div><a href="/html/">Все теги</a></div>
+<div><a href="/html/a.html">A</a></div>
+<div><a href="/html/abbr.html">ABBR</a></div>
+<div><a href="/html/acronym.html">ACRONYM</a></div>
+<div><a href="/html/address.html">ADDRESS</a></div>
+<div><a href="/html/area.html">AREA</a></div>
+<div><a href="/html/b.html">B</a></div>
+<div><a href="/html/base.html">BASE</a></div>
+<div><a href="/html/basefont.html">BASEFONT</a></div>
+<div><a href="/html/bdo.html">BDO</a></div>
+<div><a href="/html/bgsound.html">BGSOUND</a></div>
+<div><a href="/html/big.html">BIG</a></div>
+<div><a href="/html/blockquote.html">BLOCKQUOTE</a></div>
+<div><a href="/html/body.html">BODY</a></div>
+<div><a href="/html/br.html">BR</a></div>
+<div><a href="/html/button.html">BUTTON</a></div>
+<div><a href="/html/caption.html">CAPTION</a></div>
+<div><a href="/html/cite.html">CITE</a></div>
+<div><a href="/html/code.html">CODE</a></div>
+<div><a href="/html/col.html">COL</a></div>
+<div><a href="/html/colgroup.html">COLGROUP</a></div>
+<div><a href="/html/dd.html">DD</a></div>
+<div><a href="/html/del.html">DEL</a></div>
+<div><a href="/html/dfn.html">DFN</a></div>
+<div><a href="/html/div.html">DIV</a></div>
+<div><a href="/html/dl.html">DL</a></div>
+<div><a href="/html/dt.html">DT</a></div>
+<div><a href="/html/em.html">EM</a></div>
+<div class="curnav">EMBED</div>
+<div><a href="/html/fieldset.html">FIELDSET</a></div>
+<div><a href="/html/font.html">FONT</a></div>
+<div><a href="/html/form.html">FORM</a></div>
+<div><a href="/html/frame.html">FRAME</a></div>
+<div><a href="/html/frameset.html">FRAMESET</a></div>
+<div><a href="/html/h1...h6.html">H1...H6</a></div>
+<div><a href="/html/head.html">HEAD</a></div>
+<div><a href="/html/hr.html">HR</a></div>
+<div><a href="/html/html.html">HTML</a></div>
+<div><a href="/html/i.html">I</a></div>
+<div><a href="/html/iframe.html">IFRAME</a></div>
+<div><a href="/html/img.html">IMG</a></div>
+<div><a href="/html/input.html">INPUT</a></div>
+<div><a href="/html/ins.html">INS</a></div>
+<div><a href="/html/kbd.html">KBD</a></div>
+<div><a href="/html/label.html">LABEL</a></div>
+<div><a href="/html/legend.html">LEGEND</a></div>
+<div><a href="/html/li.html">LI</a></div>
+<div><a href="/html/link.html">LINK</a></div>
+<div><a href="/html/map.html">MAP</a></div>
+<div><a href="/html/marquee.html">MARQUEE</a></div>
+<div><a href="/html/meta.html">META</a></div>
+<div><a href="/html/nobr.html">NOBR</a></div>
+<div><a href="/html/noembed.html">NOEMBED</a></div>
+<div><a href="/html/noframes.html">NOFRAMES</a></div>
+<div><a href="/html/noscript.html">NOSCRIPT</a></div>
+<div><a href="/html/object.html">OBJECT</a></div>
+<div><a href="/html/ol.html">OL</a></div>
+<div><a href="/html/optgroup.html">OPTGROUP</a></div>
+<div><a href="/html/option.html">OPTION</a></div>
+<div><a href="/html/p.html">P</a></div>
+<div><a href="/html/param.html">PARAM</a></div>
+<div><a href="/html/pre.html">PRE</a></div>
+<div><a href="/html/q.html">Q</a></div>
+<div><a href="/html/samp.html">SAMP</a></div>
+<div><a href="/html/script.html">SCRIPT</a></div>
+<div><a href="/html/select.html">SELECT</a></div>
+<div><a href="/html/small.html">SMALL</a></div>
+<div><a href="/html/span.html">SPAN</a></div>
+<div><a href="/html/strike.html">STRIKE</a></div>
+<div><a href="/html/strong.html">STRONG</a></div>
+<div><a href="/html/style.html">STYLE</a></div>
+<div><a href="/html/sub.html">SUB</a></div>
+<div><a href="/html/sup.html">SUP</a></div>
+<div><a href="/html/table.html">TABLE</a></div>
+<div><a href="/html/tbody.html">TBODY</a></div>
+<div><a href="/html/td.html">TD</a></div>
+<div><a href="/html/textarea.html">TEXTAREA</a></div>
+<div><a href="/html/tfoot.html">TFOOT</a></div>
+<div><a href="/html/th.html">TH</a></div>
+<div><a href="/html/thead.html">THEAD</a></div>
+<div><a href="/html/title.html">TITLE</a></div>
+<div><a href="/html/tr.html">TR</a></div>
+<div><a href="/html/tt.html">TT</a></div>
+<div><a href="/html/ul.html">UL</a></div>
+<div><a href="/html/var.html">VAR</a></div>
+</div>
+<div class="tagtitle">Теги по типам</div>
+<div class="panel" style="height: auto">
+<div><a href="/html/?cat=1">Документ</a></div>
+<div><a href="/html/?cat=2">Звук</a></div>
+<div><a href="/html/?cat=3">Изображения</a></div>
+<div><a href="/html/?cat=4">Объекты</a></div>
+<div><a href="/html/?cat=5">Скрипты</a></div>
+<div><a href="/html/?cat=6">Списки</a></div>
+<div><a href="/html/?cat=7">Ссылки</a></div>
+<div><a href="/html/?cat=8">Таблица</a></div>
+<div><a href="/html/?cat=9">Текст</a></div>
+<div><a href="/html/?cat=10">Форматирование</a></div>
+<div><a href="/html/?cat=11">Формы</a></div>
+<div><a href="/html/?cat=12">Фреймы</a></div>
+</div>
+</div>
+<div id="content2">
+<div class="title">
+<h1>Тег EMBED</h1>
+</div>
+<table width="100%" cellspacing="0" class="data browser">
+  <tr>
+    <th>Браузер</th>
+    <td colspan="3" class="browser">Internet Explorer</td>
+    <td colspan="3" class="browser">Netscape</td>
+    <td colspan="3" class="browser">Opera</td>
+    <td class="browser">Safari</td>
+    <td class="browser">Mozilla</td>
+    <td colspan="2" class="browser">Firefox</td>
+  </tr>
+  <tr>
+    <th>Версия</th>
+    <td>5.5</td>
+    <td>6.0</td>
+    <td>7.0</td>
+    <td>6.0</td>
+    <td>7.0</td>
+    <td>8.0</td>
+    <td>7.0</td>
+    <td>8.0</td>
+    <td>9.0</td>
+    <td>1.0</td>
+    <td>1.7</td>
+    <td>1.0</td>
+    <td>2.0</td>
+  </tr>
+  <tr>
+    <th>Поддерживается</th>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+    <td class="yes">Да</td>
+  </tr>
+</table>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p>Элемент <span class="tag">&lt;EMBED&gt;</span> используется для загрузки и 
+  отображения объектов (например, видеофайлов, флэш-роликов, некоторых звуковых 
+  файлов и т.д.), которые исходно браузер не понимает. Как правило, такие объекты 
+  требуют подключения к браузеру специального модуля, который называется плагин, 
+  или запуска вспомогательной программы. </p>
+<p>Спецификация HTML 4.0 рекомендует использовать тег <span class="tag">&lt;OBJECT&gt;</span> 
+  для загрузки внешних данных вместо тега <span class="tag">&lt;EMBED&gt;</span>. 
+  Однако некоторые браузеры не отображают таким образом нужную информацию, поэтому 
+  наилучшим вариантом будет поместить <span class="tag"> &lt;EMBED&gt;</span> 
+  внутрь контейнера <span class="tag">&lt;OBJECT&gt;</span>. </p>
+<p>Вид внедренного объекта зависит от установленных в браузере плагинов, типа 
+  загружаемого файла, а также от параметров тега <span class="tag">&lt;EMBED&gt;</span>. 
+  На рис.&nbsp;1 и рис.&nbsp;2 показан вид воспроизведения в браузере различных 
+  типов файлов.</p>
+<p class="fig"><img src="/images/tag_embed_1.jpg" alt="Рис. 1. Воспроизведение видеофайла в браузере" width="472" height="391"></p>
+<p class="fig">Рис. 1. Воспроизведение видеофайла в браузере</p>
+<p class="fig"><img src="/images/tag_embed_2.png" alt="Рис. 2. Воспроизведение аудиофайла в браузере" width="472" height="179"></p>
+<p class="fig">Рис. 2. Воспроизведение аудиофайла в браузере</p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed width=&quot;...&quot; height=&quot;...&quot;&gt;&lt;/embed&gt;</p>
+<h3>Параметры</h3>
+<dl>
+  <dt>align</dt>
+  <dd>Определяет как объект будет выравниваться на странице и способ его обтекания 
+    текстом.<br>
+    <span class="element">height</span> &#8212; высота объекта.</dd>
+  <dt>hidden</dt>
+  <dd>Указывает, скрыть объект на странице или нет. </dd>
+  <dt>hspace</dt>
+  <dd>Горизонтальный отступ от объекта до окружающего контента.</dd>
+  <dt>pluginpage</dt>
+  <dd>Адрес страницы в Интернете, откуда можно скачать и установить плагин к браузеру. 
+  </dd>
+  <dt>src</dt>
+  <dd>Путь к файлу. </dd>
+  <dt>type</dt>
+  <dd>MIME-тип объекта.</dd>
+  <dt>vspace</dt>
+  <dd>Вертикальный отступ от объекта до окружающего контента.</dd>
+  <dt>width</dt>
+  <dd>Ширина объекта.</dd>
+</dl>
+<h3>Закрывающий тег</h3>
+<p> Обязателен.</p>
+<p class="exampleTitle">Пример 1. Использование тега &lt;EMBED&gt;</p>
+<div class="example"> <img src="/images/novalid-html401.png" alt="Невалидный код" width="90" height="37" align="right">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;<br>
+    &lt;html&gt;<br>
+    &lt;head&gt;<br>
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1251&quot;&gt;<br>
+    &lt;title&gt;Тег EMBED&lt;/title&gt;<br>
+    &lt;/head&gt;<br>
+    &lt;body&gt; <br>
+    <br>
+    &lt;embed src=&quot;mouse.swf&quot; width=&quot;400&quot; height=&quot;300&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot;&gt;&lt;/embed&gt;  <br>
+    <br>
+    &lt;/body&gt;<br>
+&lt;/html&gt;</div>
+<h1>Описание параметров тега &lt;EMBED&gt;</h1>
+<h2> Параметр ALIGN</h2>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p> Определяет выравнивание объекта на странице и способ его отображения совместно 
+  с другими нижележащими элементами вроде текста</p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed align=&quot;absmiddle | baseline | bottom | left 
+  | middle | right | texttop | top&quot;&gt;...&lt;/embed&gt;</p>
+<h3>Аргументы</h3>
+<dl>
+  <dt>absmiddle</dt>
+  <dd>Выравнивание середины объекта по середине текущей строки. </dd>
+  <dt>baseline</dt>
+  <dd>Выравнивание объекта по базовой линии текущей строки.</dd>
+  <dt>bottom</dt>
+  <dd>Выравнивание нижней границы объекта по окружающему тексту.</dd>
+  <dt>left</dt>
+  <dd>Выравнивает объект по левому краю окна, текст обтекает его справа.</dd>
+  <dt>middle</dt>
+  <dd>Выравнивание середины объекта по базовой линии текущей строки. </dd>
+  <dt>right</dt>
+  <dd>Выравнивает объект по правому краю окна, текст обтекает слева.</dd>
+  <dt>texttop</dt>
+  <dd>Верхняя граница объекта выравнивается по самому высокому текстовому элементу 
+    текущей строки.</dd>
+  <dt>top</dt>
+  <dd>Верхняя граница объекта выравнивается по самому высокому элементу текущей 
+    строки.</dd>
+</dl>
+<h3>Значение по умолчанию</h3>
+<p> bottom</p>
+<p class="exampleTitle">Пример 2. Выравнивание объекта</p>
+<div class="example"><img src="/images/novalid-html401.png" alt="Невалидный код" width="90" height="37" align="right">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1251&quot;&gt;<br>
+&lt;title&gt;Тег EMBED, параметр align&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt; <br>
+  <br>
+  &lt;embed src=&quot;movie.avi&quot; width=&quot;400&quot; height=&quot;300&quot; 
+  <span class="select">align=&quot;left&quot;</span>&gt;&lt;/embed&gt;<br>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh 
+  euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. <br>
+  <br>
+  &lt;/body&gt;<br>
+  &lt;/html&gt;</div>
+<h2>Параметр HEIGHT и WIDTH</h2>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p> Параметр <span class="element">height</span> устанавливает высоту объекта, 
+  а <span class="element">width</span> &#8212; его ширину. В заданные размеры 
+  входит не только само изображение, например в случае воспроизведения видеофайла, 
+  но и панель управления им, включая кнопки проигрывания, паузы, остановки и т.д. 
+  По этой причине на размер отображаемого объекта влияет тип файла и применяемый 
+  плагин. </p>
+<p>Если используется процентная запись, то размеры объекта вычисляются относительно 
+  родительского элемента &#8212; контейнера, где находится тег <span class="tag">&lt;EMBED&gt;</span>. 
+  В случае отсутствия родительского контейнера, в его качестве выступает окно 
+  браузера. Иными словами, <span class="element">width=&quot;100%&quot;</span> 
+  означает, что объект будет занимать всю доступную ширину веб-страницы. </p>
+<p>Несмотря на заданные размеры объекта, его исходные пропорции сохраняются, но 
+  в случае явного диссонанса высоты и ширины добавляется пустое пространство по 
+  вертикали или горизонтали. </p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed height=&quot;ширина&quot; width=&quot;высота&quot;&gt;...&lt;/embed&gt;</p>
+<h3>Обязательные параметры</h3>
+<p>Да.</p>
+<h3>Аргументы</h3>
+<p> Любое целое положительное число в пикселах или процентах. </p>
+<h3>Значение по умолчанию</h3>
+<p> Нет.</p>
+<h2>Параметр HIDDEN</h2>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p> Параметр <span class="element">hidden</span> представляет собой выключатель, 
+  который определяет, отображать объект в окне браузера или нет. Это особенно 
+  удобно для скрытия панели управления при воспроизведении фоновой музыки. Если 
+  этот атрибут указан, значение параметров <span class="element">width</span> 
+  и <span class="element">height</span> игнорируется. </p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed hidden&gt;...&lt;/embed&gt;</p>
+<h3>Аргументы</h3>
+<p> Нет.</p>
+<h3>Значение по умолчанию</h3>
+<p> По умолчанию этот параметр выключен.</p>
+<p class="exampleTitle">Пример 3. Сокрытие объекта</p>
+<div class="example"><img src="/images/novalid-html401.png" alt="Невалидный код" width="90" height="37" align="right">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1251&quot;&gt;<br>
+&lt;title&gt;Тег EMBED, параметр hidden&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+  <br>
+  &lt;embed src=&quot;jazz.mp3&quot; <span class="select">hidden</span>&gt;&lt;/embed&gt;<br>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh 
+  euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. <br>
+  <br>
+  &lt;/body&gt;<br>
+  &lt;/html&gt;</div>
+<h2>Параметр HSPACE и VSPACE</h2>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p>Для любого объекта можно задать невидимые отступы по горизонтали и вертикали 
+  с помощью параметров <span class="element">hspace</span> и <span class="element">vspace</span>. 
+  Особенно это актуально при обтекании объекта текстом, в этом случае необходимо 
+  вокруг него добавить пустое пространство.</p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed hspace=&quot;отступ по горизонтали&quot; vspace=&quot;отступ 
+  по вертикали&quot;&gt;...&lt;/embed&gt;</p>
+<h3>Аргументы</h3>
+<p> Любое целое положительное число в пикселах.</p>
+<h3>Значение по умолчанию</h3>
+<p> 0</p>
+<p class="exampleTitle">Пример 4. Отступы вокруг объекта</p>
+<div class="example"><img src="/images/novalid-html401.png" alt="Невалидный код" width="90" height="37" align="right">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1251&quot;&gt;<br>
+&lt;title&gt;Тег EMBED, параметр hspace и vspace&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+  <br>
+  &lt;embed src=&quot;banner.swf&quot; width=&quot;600&quot; height=&quot;200&quot; 
+  type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; 
+  <span class="select">hspace=&quot;10&quot; vspace=&quot;10</span>&quot;&gt;&lt;/embed&gt;<br>
+  <br>
+  &lt;/body&gt;<br>
+  &lt;/html&gt;</div>
+  
+<h2>Параметр PLUGINSPAGE</h2>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p>Если браузер не поддерживает указанный тип файлов заданный параметром <span class="element">src</span>, 
+  то <span class="element">pluginspage</span> используется для того, чтобы перейти 
+  по указанному адресу, откуда можно скачать и установить необходимый плагин. 
+  Браузер сообщает пользователю, что требуемого плагина для отображения файла 
+  нет, и запрашивает, загружать его или нет.</p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed pluginspage=&quot;URL&quot;&gt;...&lt;/embed&gt;</p>
+<h3>Аргументы</h3>
+<p> Любой корректный URL (Universal Resource Locator, универсальный указатель 
+  ресурсов).</p>
+<h3>Значение по умолчанию</h3>
+<p> Нет.</p>
+<p class="exampleTitle">Пример 5. Адрес требуемого плагина</p>
+<div class="example"><img src="/images/novalid-html401.png" alt="Невалидный код" width="90" height="37" align="right">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1251&quot;&gt;<br>
+&lt;title&gt;Тег EMBED, параметр pluginspace&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+  <br>
+  &lt;embed src=&quot;ban.swf&quot; width=&quot;200&quot; height=&quot;200&quot; 
+  type=&quot;application/x-shockwave-flash&quot; <span class="select">pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot;</span>&gt;&lt;/embed&gt;<br>
+  <br>
+  &lt;/body&gt;<br>
+  &lt;/html&gt;</div>
+  
+<h2>Параметр SRC</h2>
+<table class="standart" cellspacing="0">
+  <tr>
+    <td class="h">HTML:</td>
+    <td class="no">3.2</td>
+    <td class="no">4</td>
+    <td class="xh">XHTML:</td>
+    <td class="no">1.0</td>
+    <td class="no">1.1</td>
+  </tr>
+</table>
+<h3>Описание</h3>
+<p>Параметр <span class="element">src</span> указывает путь к файлу, который необходимо 
+  загрузить в окно браузера. Браузер анализирует расширение файла и решает по 
+  нему, какой плагин или внешняя программа требуется для отображения файла. </p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed src=&quot;URL&quot;&gt;...&lt;/embed&gt;</p>
+<h3>Аргументы</h3>
+<p> В качестве значения принимается полный или относительный путь к файлу. </p>
+<h3>Значение по умолчанию</h3>
+<p> Нет.</p>
+<h2>Параметр TYPE</h2>
+<h3>Описание</h3>
+<p>Не всегда браузер может распознать тип файла по его расширению. В таких случаях 
+  лучше указывать его тип с помощью параметра <span class="element">type</span>, 
+  который устанавливает MIME-тип для данных.</p>
+<h3>Синтаксис</h3>
+<p class="example"> &lt;embed type=&quot;MIME-тип&quot;&gt;...&lt;/embed&gt;</p>
+<h3>Аргументы</h3>
+<p> Имя MIME-типа в любом регистре. Допускается устанавливать сразу несколько 
+  значений, разделяя их запятыми. </p>
+<h3>Значение по умолчанию</h3>
+<p> Нет.</p>
+</div>
+
+<div id="bottom">
+<p>Copyright 2002&#8211;2007 <b>Влад Мержевич</b>, по всем вопросам пишите по адресу: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%76%6c%61%64@%68%74%6d%6c%62%6f%6f%6b.%72%75" >&#x76;&#x6c;&#x61;&#x64;&#x40;&#x68;&#x74;&#x6d;&#x6c;&#x62;&#x6f;&#x6f;&#x6b;&#x2e;&#x72;&#x75;</a></p>
+<p><a href="http://htmlbook.ru/about/?id=1">О сайте</a> | <a href="http://htmlbook.ru/about/?id=2">Планы на будущее</a> | <a href="http://htmlbook.ru/about/?id=3">Использование сайта</a> | <a href="http://htmlbook.ru/about/?id=4">Борьба с ошибками</a> | <a href="http://htmlbook.ru/about/?id=5">Технологии</a></p>
+</div>
+
+</body>
+</html>
